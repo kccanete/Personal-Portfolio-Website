@@ -1,0 +1,153 @@
+/* Reset default browser spacing */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Gradient Lilac Background */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #d8b4f8, #c084fc, #e9d5ff);
+    color:#333;
+    min-height:100vh;
+}
+
+/* Header */
+
+header{
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(6px);
+    text-align:center;
+    padding:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+header h1{
+    color:#5b21b6;
+    margin-bottom:10px;
+}
+
+/* Navigation */
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#6b21a8;
+    font-weight:bold;
+    margin:0 15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#9333ea;
+}
+
+/* Main Content */
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-top:40px;
+    padding:30px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Images */
+
+img{
+    border-radius:10px;
+    margin-top:15px;
+}
+
+/* Headings */
+
+h2{
+    color:#6b21a8;
+    margin-bottom:15px;
+}
+
+h3{
+    color:#7e22ce;
+    margin-top:20px;
+}
+
+/* Tables */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #ddd;
+}
+
+th{
+    background:#e9d5ff;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+/* Forms */
+
+form{
+    margin-top:20px;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+input[type="submit"]{
+    background:#9333ea;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+input[type="submit"]:hover{
+    background:#7e22ce;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    padding:15px;
+    color:white;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px){
+
+    .container{
+        width:95%;
+        padding:20px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
