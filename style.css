@@ -151,3 +151,12 @@ footer{
         margin:10px 0;
     }
 }
+
+.dark-theme {
+    background-color: #222;
+    color: white;
+}
+
+.dark-theme a {
+    color: #ffd700;
+}
