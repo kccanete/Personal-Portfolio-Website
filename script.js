@@ -5,7 +5,7 @@ function darkMode() {
 
 // Welcome Message
 function welcomeMessage() {
-    alert("Welcome to my personal portfolio website!");
+    alert("Aloha! Welcome to KC Canete's personal portfolio website. Thanks for visiting!");
 }
 
 // Display Current Date and Time
